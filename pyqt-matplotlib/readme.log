@@ -1,0 +1,6 @@
+multichannel_sig_plot_canvas_widget里面自定义了一个控件，基于matplotlib绘图的控件。类名为MulSigPlotWidget。
+
+使用时，在qtdsigner里面放置一个widget,然后提升为MulSigPlotWidget(即使用自定义控件)，在生成的代码最后一行有 from mulsigplotwidget import MulSigPlotWidget，将此行代码放置最前
+
+该类提供了initialize方法用来确定几个通道的数据，以及坐标轴的范围等
+；update方法用来更新绘图的数据，datax和datay，均为2D array。每一行绘制一个通道。注意绘制将会覆盖原来的东西。
