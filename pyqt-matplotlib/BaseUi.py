@@ -8,7 +8,7 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt4 import QtCore, QtGui
-from multichannel_sig_plot_canvas_widget import MulSigPlotWidget
+from mulsigplotwidget import MulSigPlotWidget
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8

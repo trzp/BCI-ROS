@@ -16,7 +16,7 @@ import sys
 sys.path.append('..//..//pipe')
 from win_named_pipe import *
 
-class MainWindow(QtGui.QDialog,threading.Thread): 
+class MainWindow(QtGui.QDialog,threading.Thread):
 
     def __init__(self,parent=None):
 
